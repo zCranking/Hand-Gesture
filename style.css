@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+#body
+{
+ background: hsl(214, 90%, 23%);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#header31{
+  background: radial-gradient(hsl(154, 85%, 63%), hsl(154, 100%, 63%));
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 20px;
+  box-shadow: 1px 10px 17px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-size: 60px;
+}
+#header31:hover{
+  background: hsl(154, 100%, 90%);
+  color: hsl(154, 100%, 63%);
+  box-shadow: 1px 10px 17px hsl(154, 100%, 63%);
+}
+.header32{
+  background: radial-gradient(hsl(154, 85%, 63%), hsl(154, 100%, 63%));
+  color: white;
+  border-radius: 10px;
+  font-size: 35px;
+  box-shadow: 1px 10px 17px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+.header32:hover{
+  background: hsl(154, 100%, 90%);
+  color: hsl(154, 100%, 63%);
+  box-shadow: 1px 10px 17px hsl(154, 100%, 63%);
+}
+.p-information{
+  color: hsl(154, 100%, 63%);
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+}
